@@ -1,0 +1,302 @@
+*{
+    box-sizing: border-box;
+}
+header {
+  background-image: url(../imgs/img/bg.jpg);
+  background-position: center center;
+  background-size: 100% 100%;
+}
+.header-layer {
+  background-color: rgba(0, 0, 0, 0.65);
+}
+h1,h2,h3,h4,h5,h6,.logo {
+  font-family: "Montserrat", sans-serif;
+}
+.font-wight {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.header-layer-content-icon {
+  top: 80px;
+  left: 90px;
+}
+.icon {
+  width: 2rem;
+  height: 2rem;
+}
+.f-sDAnial {
+  font-size: 25px;
+}
+.f-sUl {
+  font-size: 16px;
+}
+.font-sizeH {
+  font-size: 55px;
+}
+.l7awe {
+  width: 400px;
+}
+.inner-img img {
+  width: 90%;
+}
+.hero-icon {
+  top: 5px;
+  right: 12%;
+}
+.lablab h2{
+    font-size: 34px;
+    font-weight: 200 !important;
+}
+.header-layer-content-animation .lablab h2::after {
+  content: "|";
+  animation-name: typing;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  font-family: "Poppins", sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+}
+@keyframes typing {
+  0% { content: "L |";}
+  1% {content: "La |";}
+  2% {content: "Lar |";}
+  3% {content: "Larr |";}
+  4% {content: "Larry |"; }
+  5% { content: "Larry D |";}
+  6% {content: "Larry Da |";}
+  7% {content: "Larry Dan |"; }
+  8% { content: "Larry Dani |";}
+  9% {content: "Larry Danie |";}
+  10% {content: "Larry Daniel |";}
+  11% {content: "Larry Daniels |";}
+  12% {content: "Larry Daniel |";}
+  13% { content: "Larry Danie |";}
+  14% { content: "Larry Dani |";}
+  15% {content: "Larry Dan |";}
+  16% { content: "Larry Da |";}
+  17% {content: "Larry D |";}
+  18% { content: "Larry  |";}
+  19% { content: "Larr |";}
+  20% {content: "Lar |"; }
+  21% {content: "La |";}
+  22% { content: "L |";}
+  23% { content: " |";}
+  28% { content: "D |"; }
+  29% { content: "De |";}
+  30% {  content: "Dev |";}
+  31% {  content: "Deve |";}
+  32% {  content: "Devel |";}
+  33% {  content: "Develo |"; }
+  34% {  content: "Develop |";}
+  35% {  content: "Develope |";}
+  36% {   content: "Developer |"; }
+  37% {  content: "Develope |";}
+  38% {  content: "Develop |";}
+  39% {  content: "Develo |"; }
+  40% {  content: "Devel |";}
+  41% {  content: "Deve |";}
+  42% {content: "Dev |";}
+  43% { content: "De |";}
+  44% { content: "D |";}
+  48% {  content: "De |";}
+  49% { content: "Des |";}
+  50% { content: "Desi |";}
+  51% {content: "Desig |";}
+  52% { content: "Design |";}
+  53% { content: "Designe |";}
+  54% {content: "Designer |";}
+}
+/* .inner-a {
+  opacity: 0;
+  transition: all 0.5s;
+}
+.inner:hover .inner-a {
+  opacity: 1 !important;
+} */
+.search-icon
+{
+  opacity: 0;
+}
+.about-pic:hover .search-icon
+{
+  opacity: 1;
+
+}
+.dots-icon 
+{
+  opacity: 0;
+}
+
+.search-icon:hover .dots-icon 
+{
+  opacity: 1;
+}
+.progress {
+  height: 25px !important;
+}
+.progress-bar {
+  background-color: black !important;
+  padding-top: 10px !important;
+}
+.hero-btn {
+  width: 140px;
+  height: 40px;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+.hero-btn:hover {
+  color: black !important;
+  background-color: aliceblue !important;
+}
+.hero-btnn {
+  width: 140px;
+  height: 40px;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+.hero-btnn:hover {
+  color: aliceblue !important;
+  background-color: black !important;
+}
+.s3{
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+    background-image: url(../imgs/img/dots.png);
+    background-size: auto;
+    width: 25%;
+    height: 10px;
+}
+.services{
+    background-color: #f7f7f7;
+    padding-bottom: 70px !important;
+}
+.items .span{
+    width: 4rem !important;
+    height: 4rem;
+    border-radius: 50%;
+background-color:  #f7f7f7;
+}
+.span{
+    transition: all 1s !important;
+}
+.items:hover .span{
+    background-color: black !important;
+    color: aliceblue !important;
+}
+.nav-pills .nav-link.active {
+    background-color: black !important;
+    color: white !important;
+    font-weight: 500 !important;
+    position: relative;
+}
+.nav-pills .nav-link {
+    color: black !important;
+    font-weight: 500 !important;
+}
+.protfolio-layer{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom:5px;
+    opacity: 0 !important;
+    transition: all 1s;
+}
+.protfolio-layer:hover{
+    opacity: 1 !important;
+}
+.hoverr i{
+    transition: all 1s !important;
+    border: 2px solid black;
+}
+.hoverr:hover i{
+    background-color: aliceblue !important;
+    color: black !important;
+}
+.hooverr i{
+    transition: all 1s !important;
+    border: 2px solid black;
+}
+.hooverr:hover i{
+    background-color: aliceblue !important;
+    color: black !important;
+}
+.carousel-indicators [data-bs-target]{
+    width: 10px !important;
+   background-color: rgb(174, 174, 174) !important;
+    height: 10px !important;
+    border-radius: 50%;
+    margin-top: 15px !important;
+}
+.carousel-indicators .active{
+    background-color: rgb(142, 141, 141) !important;
+}
+.Testimonials{
+    background-color: #f7f7f7;
+}
+@media screen and (max-width:768px) {
+    h2{
+        margin-top: 10px;
+    }
+    .progress{
+        margin-bottom: 10px;
+    }
+}
+.animationn::after {
+    content: counter(count);
+    animation: counter 2s linear ;
+    counter-reset: count 850;
+  }
+  
+.animationnn::after {
+    content: counter(count);
+    animation: counter 2s linear ;
+    counter-reset: count 230;
+  }
+.animationnnn::after {
+    content: counter(count);
+    animation: counter 2s linear ;
+    counter-reset: count 9450;
+}
+.animationnnnn::after {
+    content: counter(count);
+    animation: counter 2s linear ;
+    counter-reset: count 780;
+}
+@keyframes counter {
+    0% {counter-increment: count 0; }
+    6.6% {counter-increment: count 2; }
+    13.3% {counter-increment: count 10; }
+    19.3% {counter-increment: count 20; }
+    26.53% {counter-increment: count 100; }
+    33.1% { counter-increment: count 150;}
+    39.7% { counter-increment: count 200;}
+    46.3% {  counter-increment: count 300;}
+    52.9% {  counter-increment: count 400;}
+    59.5% {   counter-increment: count 500;}
+    66.1% {  counter-increment: count 600;}
+    72.7% {  counter-increment: count 700;}
+    80% {counter-increment: count 750;}
+    90% { counter-increment: count 800; }
+    100% { counter-increment: count 850;}
+}
+.cards{
+    background-color: #f7f7f7;
+}
+.img-card img{
+    transition: all 1s;
+}
+.img-card:hover img{
+    transform: scale(1.1);
+}
+.form-control{
+    background-color: #eeeeee !important;
+    border: none !important;
+}
+textarea {
+    height: 160px;
+    max-height: 160px;
+    max-width: 100%;
+}
+                                                                                /* All Done */
+                                                                                /* الحمد لله */
